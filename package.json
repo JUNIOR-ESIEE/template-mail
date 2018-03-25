@@ -1,0 +1,25 @@
+{
+  "name": "template-mail",
+  "version": "0.0.1",
+  "description": "Template de mail et de signature réalisé grâce à MJML",
+  "main": "index.js",
+  "scripts": {
+    "mjml": "mjml",
+    "dev-template" : "mjml --watch src/template.mjml -o build/template.html",
+    "template" : "mjml -r src/template.mjml -o build/template.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JUNIOR-ESIEE/template-mail.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JUNIOR-ESIEE/template-mail/issues"
+  },
+  "homepage": "https://github.com/JUNIOR-ESIEE/template-mail#readme",
+  "devDependencies": {
+    "mjml": "^4.0.3"
+  }
+}

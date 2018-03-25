@@ -1,0 +1,15 @@
+<mj-section background-color="#384650" full-width="full-width" padding="0">
+    <mj-column>
+        <mj-image
+                src="https://www.junioresiee.com/images/logo-w.png"
+                width="120px"
+                alt="Junior ESIEE Logo"/>
+    </mj-column>
+</mj-section>
+
+
+<mj-section padding="0" full-width="full-width" background-color="#3668B1">
+    <mj-column>
+        <mj-divider width="100%" border-width="3px" padding="0" border-color="#3668B1" />
+    </mj-column>
+</mj-section>

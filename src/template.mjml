@@ -1,0 +1,81 @@
+<mjml>
+    <mj-body background-color="#EDEDED" color="#212121">
+        <!-- Include Header -->
+        <mj-include path="header.mjml" />
+        <!--//Included Header -->
+
+
+        <!-- SECTION : Mail Title and SubTitle -->
+        <mj-section
+                padding-bottom="0"
+                background-color="#FAFAFA">
+            <mj-column >
+                <mj-text color="#3668B1" font-size="25px" padding-bottom="0">
+                    Etude rémunérée
+                </mj-text>
+                <mj-text color="#39BFF0" font-size="15px" padding-top="0">
+                    PHP ou MYSQL ou HTML/CSS
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-text align="center" padding-bottom="0" font-size="15px" color="#E72878">Client</mj-text>
+                <mj-text align="center" padding-top="0" font-size="25px" color="#732166">Microsoft</mj-text>
+            </mj-column>
+        </mj-section>
+        <!--//Mail Title and SubTitle -->
+
+        <!-- SECTION : Mail content -->
+        <mj-section
+                    padding-bottom="0"
+                    padding-top="0"
+                    background-color="#FAFAFA">
+            <mj-column>
+                <mj-text align="justify">
+                    Il s'agit de réaliser une application web de mise en relation de particuliers avec des associations à but non lucratif.
+                    Ces dernières seront capables de poster des missions auxquelles les utilisateurs pourront participer.
+                    Il sera également possible de poster des missions entre particuliers.
+                </mj-text>
+
+                <mj-text align="justify">
+                    Si tu penses avoir les compétences permettant la
+                    réalisation de cette étude et que tu es motivé(e),
+                    n'hésites pas et envoyer ton CV.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!--///SECTION : Mail content -->
+
+        <!-- SECTION : Mail reply/to -->
+        <mj-section
+                padding-top="0"
+                background-color="#FAFAFA">
+            <mj-column>
+                <mj-button
+                        href="mailto:jeremy.fornarino@junioresiee.com?subject=Réponse à l'appel d'offre - Etude Rémunrée"
+                        background-color="#E72878"
+                        color="#FAFAFA">
+                    Envoyer mon C.V
+                </mj-button>
+                <mj-text
+                        align="center"
+                        font-size="10px"
+                        padding-bottom="0"
+                        color="#6D6D6D">
+                    Si vous ne parvenez pas à envoyer un mail en cliquant sur le bouton, vous pouvez directment envoyer un mail à l'adresse :
+                </mj-text>
+                <mj-text
+                        align="center"
+                        padding-top="0"
+                        text-decoration="underline"
+                        color="#39BFF0">
+                    jeremy.fornarino@junioresiee.com
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!--///SECTION : Mail reply/to -->
+
+        <!-- Include Header -->
+        <mj-include path="footer.mjml" />
+        <!--//Included Header -->
+    </mj-body>
+</mjml>

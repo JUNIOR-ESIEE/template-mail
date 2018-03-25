@@ -1,0 +1,15 @@
+<mj-section padding="0" background-color="#3668B1">
+    <mj-column>
+        <mj-divider width="100%" border-width="3px" padding="0" border-color="#3668B1" />
+    </mj-column>
+</mj-section>
+<mj-section background-color="#384650"  >
+    <mj-column>
+        <mj-text padding="0" align="center" color="#FAFAFA">
+            &copy; Junior ESIEE - Tous droits réservés - 1982 - 2018
+        </mj-text>
+        <mj-text padding="0" align="center" color="#FAFAFA">
+            Association loi 1901 - Siren : 348 301 243
+        </mj-text>
+    </mj-column>
+</mj-section>
