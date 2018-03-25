@@ -9,18 +9,20 @@
         <mj-section
                 padding-bottom="0"
                 background-color="#FAFAFA">
-            <mj-column >
-                <mj-text color="#3668B1" font-size="25px" padding-bottom="0">
-                    Etude rémunérée
-                </mj-text>
-                <mj-text color="#39BFF0" font-size="15px" padding-top="0">
-                    PHP ou MYSQL ou HTML/CSS
-                </mj-text>
-            </mj-column>
-            <mj-column>
-                <mj-text align="center" padding-bottom="0" font-size="15px" color="#E72878">Client</mj-text>
-                <mj-text align="center" padding-top="0" font-size="25px" color="#732166">Microsoft</mj-text>
-            </mj-column>
+            <mj-group>
+                <mj-column >
+                    <mj-text color="#3668B1" font-size="25px" padding-bottom="0">
+                        Etude rémunérée
+                    </mj-text>
+                    <mj-text color="#39BFF0" font-size="15px" padding-top="0">
+                        PHP ou MYSQL ou HTML/CSS
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-text align="center" padding-bottom="0" font-size="15px" color="#E72878">Client</mj-text>
+                    <mj-text align="center" padding-top="0" font-size="25px" color="#732166">Microsoft</mj-text>
+                </mj-column>
+            </mj-group>
         </mj-section>
         <!--//Mail Title and SubTitle -->
 
@@ -51,7 +53,7 @@
                 background-color="#FAFAFA">
             <mj-column>
                 <mj-button
-                        href="mailto:jeremy.fornarino@junioresiee.com?subject=Réponse à l'appel d'offre - Etude Rémunrée"
+                        href="mailto:jeremy.fornarino@junioresiee.com?subject=Réponse à votre recherche de réalisateurs"
                         background-color="#E72878"
                         color="#FAFAFA">
                     Envoyer mon C.V
@@ -61,7 +63,7 @@
                         font-size="10px"
                         padding-bottom="0"
                         color="#6D6D6D">
-                    Si vous ne parvenez pas à envoyer un mail en cliquant sur le bouton, vous pouvez directment envoyer un mail à l'adresse :
+                    Si vous ne parvenez pas à envoyer un mail en cliquant sur le bouton, vous pouvez directement envoyer un mail à l'adresse :
                 </mj-text>
                 <mj-text
                         align="center"

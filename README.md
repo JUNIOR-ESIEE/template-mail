@@ -21,5 +21,6 @@ Voir la documentation de MJML : https://mjml.io/documentation/
 
 
 La compilation sort un fichier template.html dans le dossier build.
+
 # Auteur
 Jérémy Fornarino - Pour Junior ESIEE - 2017-2018
