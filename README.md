@@ -1,6 +1,9 @@
 # Template-mail
 Template de mail et de signature réalisé grâce à MJML pour Junior ESIEE
 
+# Exemple (demo)
+- [Recherche de réalisateurs](https://junior-esiee.github.io/template-mail/build/template.html)
+
 # Install
 
 Avec npm : ``# npm install``
