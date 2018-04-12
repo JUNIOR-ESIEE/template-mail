@@ -18,6 +18,7 @@
                         PHP ou MYSQL ou HTML/CSS
                     </mj-text>
                 </mj-column>
+
                 <mj-column>
                     <mj-text align="center" padding-bottom="0" font-size="15px" color="#E72878">Client</mj-text>
                     <mj-text align="center" padding-top="0" font-size="25px" color="#732166">Microsoft</mj-text>

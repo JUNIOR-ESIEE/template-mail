@@ -1,0 +1,65 @@
+<mjml>
+    <mj-body background-color="#EDEDED" color="#212121">
+        <!-- Include Header -->
+        <mj-include path="header.mjml" />
+        <!--//Included Header -->
+
+
+        <!-- SECTION : Mail Title and SubTitle -->
+        <mj-section
+                padding-bottom="0"
+                background-color="#FAFAFA">
+            <mj-column >
+                <mj-text color="#3668B1" font-size="25px" padding-bottom="0">
+                    Création de tes comptes
+                </mj-text>
+                <mj-text color="#39BFF0" font-size="15px" padding-top="0">
+                    GSuite (Gmail/Drive...) et Slack
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!--//Mail Title and SubTitle -->
+
+        <!-- SECTION : Mail content -->
+        <mj-section
+                padding-bottom="0"
+                padding-top="0"
+                background-color="#FAFAFA">
+            <mj-column>
+                <mj-text align="justify">
+                    <p>Bonjour,</p>
+                    <p>
+                        Voici tes identifiants pour te connecter à ton compte mail @junioresiee.com:
+                        <ul>
+                            <li><b>Adresse mail </b>: edouard@junioresiee.com</li>
+                            <li><b>Mot de passe </b>: edouard@junioresiee.com</li>
+                            <li><b>Lien vers la boite mail </b>: http://email.junioresiee.com/</li>
+                        </ul>
+                    </p>
+                    <p>
+                        Pour ce qui est de slack, tu trouveras les informations de connexion dans ta boîte mail junior esiee.
+                    </p>
+                </mj-text>
+                <mj-text
+                        align="center"
+                        font-size="10px"
+                        padding-bottom="0"
+                        color="#6D6D6D">
+                    Si vous ne parvenez pas à vous connecter, vous pouvez directement envoyer un mail à l'adresse :
+                </mj-text>
+                <mj-text
+                        align="center"
+                        padding-top="0"
+                        text-decoration="underline"
+                        color="#39BFF0">
+                    dsi@junioresiee.com
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!--///SECTION : Mail content -->
+
+        <!-- Include Header -->
+        <mj-include path="footer.mjml" />
+        <!--//Included Header -->
+    </mj-body>
+</mjml>

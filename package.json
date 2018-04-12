@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev-template" : "mjml --watch src/template.mjml -o build/template.html",
-    "template" : "mjml -r src/template.mjml -o build/template.html"
+    "template" : "mjml src/template.mjml -o build/template.html",
+    "dev-creationComptes" : "mjml --watch src/creation_comptes.mjml -o build/creationComptes.html",
+    "creationComptes" : "mjml src/creation_comptes.mjml -o build/creationComptes.html"
   },
   "repository": {
     "type": "git",

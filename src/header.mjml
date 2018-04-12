@@ -1,6 +1,6 @@
 <mj-section background-color="#384650" full-width="full-width" padding="0">
     <mj-column>
-        <mj-include path="logo_junior-esiee.mjml" />
+        <mj-include path="logo_link.mjml" />
     </mj-column>
 </mj-section>
 
