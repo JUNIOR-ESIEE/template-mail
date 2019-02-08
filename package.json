@@ -4,10 +4,10 @@
   "description": "Template de mail et de signature réalisé grâce à MJML pour Junior ESIEE",
   "main": "index.js",
   "scripts": {
-    "dev-template" : "mjml --watch src/template.mjml -o build/template.html",
-    "template" : "mjml src/template.mjml -o build/template.html",
-    "dev-creationComptes" : "mjml --watch src/creation_comptes.mjml -o build/creationComptes.html",
-    "creationComptes" : "mjml src/creation_comptes.mjml -o build/creationComptes.html"
+    "dev-template": "mjml --watch src/template.mjml -o build/template.html",
+    "template": "mjml src/template.mjml -o build/template.html",
+    "dev-creationComptes": "mjml --watch src/creation_comptes.mjml -o build/creationComptes.html",
+    "creationComptes": "mjml src/creation_comptes.mjml -o build/creationComptes.html"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,12 @@
   },
   "homepage": "https://github.com/JUNIOR-ESIEE/template-mail#readme",
   "devDependencies": {
+    "husky": "^1.3.1",
     "mjml": "^4.0.3"
+  },
+  "husky": {
+    "hooks": {
+	"pre-commit": "yarn template && yarn creationComptes"
+    }
   }
 }
