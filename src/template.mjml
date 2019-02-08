@@ -18,11 +18,12 @@
                         PHP ou MYSQL ou HTML/CSS
                     </mj-text>
                 </mj-column>
-
+		<!--
                 <mj-column>
                     <mj-text align="center" padding-bottom="0" font-size="15px" color="#E72878">Client</mj-text>
                     <mj-text align="center" padding-top="0" font-size="25px" color="#732166">Microsoft</mj-text>
                 </mj-column>
+		-->
             </mj-group>
         </mj-section>
         <!--//Mail Title and SubTitle -->
@@ -42,7 +43,7 @@
                 <mj-text align="justify">
                     Si tu penses avoir les compétences permettant la
                     réalisation de cette étude et que tu es motivé(e),
-                    n'hésites pas et envoyer ton CV.
+                    n'hésite pas et envoie nous ton CV.
                 </mj-text>
             </mj-column>
         </mj-section>
@@ -54,7 +55,7 @@
                 background-color="#FAFAFA">
             <mj-column>
                 <mj-button
-                        href="mailto:jeremy.fornarino@junioresiee.com?subject=Réponse à votre recherche de réalisateurs"
+                        href="mailto:responsable-commercial@junioresiee.com?subject=Réponse à votre recherche de réalisateurs"
                         background-color="#E72878"
                         color="#FAFAFA">
                     Envoyer mon C.V
@@ -71,7 +72,7 @@
                         padding-top="0"
                         text-decoration="underline"
                         color="#39BFF0">
-                    jeremy.fornarino@junioresiee.com
+                    responsable-commercial@junioresiee.com
                 </mj-text>
             </mj-column>
         </mj-section>
